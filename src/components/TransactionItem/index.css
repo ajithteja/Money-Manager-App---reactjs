@@ -1,0 +1,24 @@
+.history-list-container {
+  display: flex;
+}
+
+.delete-button {
+  align-self: center;
+  cursor: pointer;
+  border-width: 0;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-container {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.delete-img {
+  height: 23px;
+}

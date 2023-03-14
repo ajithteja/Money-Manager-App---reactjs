@@ -1,0 +1,134 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.bg-container {
+  padding: 38px;
+  min-height: 100vh;
+}
+
+.header {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-size: cover;
+  padding: 26px;
+  border-radius: 18px;
+  margin-bottom: 28px;
+}
+
+.heading {
+  font-size: 28px;
+  font-family: 'roboto';
+  font-weight: 500;
+  color: #2a3340;
+}
+
+.description {
+  font-size: 15px;
+  font-weight: 500;
+  color: #374150;
+}
+
+.style-description {
+  color: #0b69ff;
+  font-weight: bold;
+}
+
+.transaction-history {
+  display: flex;
+}
+
+.transactions-container {
+  border-style: solid;
+  border-radius: 18px;
+  border-width: 1px;
+  border-color: #7e858e;
+  padding: 26px;
+  margin-right: 35px;
+  flex-grow: 1;
+}
+
+.title-head {
+  font-size: 25px;
+}
+
+.title-text {
+  font-size: 12px;
+  font-family: 'roboto';
+  font-weight: bold;
+  color: #606d80;
+}
+
+.title-input {
+  font-family: 'roboto';
+  font-weight: 500;
+  color: #2a3340;
+  padding: 5px;
+  width: 95%;
+  margin-bottom: 8px;
+  outline: none;
+}
+
+.add-btn {
+  color: #ffffff;
+  font-family: 'roboto';
+  font-weight: 500;
+  font-size: 12px;
+  background-color: #0b69ff;
+  border-width: 0;
+  padding: 5px;
+  width: 48px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.history-container {
+  border-style: solid;
+  border-radius: 18px;
+  border-width: 1px;
+  border-color: #7e858e;
+  padding: 26px;
+  flex-grow: 2;
+}
+
+.history-sub {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #abaeb6;
+  padding: 16px;
+  display: flex;
+}
+
+.history-title {
+  color: #2a3340;
+  margin: 0;
+  flex-grow: 1;
+}
+
+.history-type {
+  flex-grow: 2;
+}
+
+.history-ul-container {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.history-border {
+  border-top-width: 0;
+}
+
+@media (max-width: 767px) {
+  .transaction-history {
+    flex-direction: column;
+  }
+
+  .transactions-container {
+    margin-right: 0;
+    margin-bottom: 28px;
+  }
+}
